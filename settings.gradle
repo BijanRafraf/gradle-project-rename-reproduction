@@ -1,0 +1,4 @@
+rootProject.name = 'rename-repro'
+
+include ':bar'
+project(':bar').projectDir = file('mymodule')
